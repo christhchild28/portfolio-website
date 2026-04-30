@@ -1,0 +1,20 @@
+<svg width="1400" height="760" viewBox="0 0 1400 760" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1400" height="760" fill="#F4F4F3"/>
+  <path d="M780 0L980 0L1400 300L1230 760H700L570 470L640 210L780 0Z" fill="#DFE4DE"/>
+  <path d="M780 0L980 0L1400 300L1230 760H700L570 470L640 210L780 0Z" fill="url(#g)" fill-opacity=".45"/>
+  <path d="M740 170L930 170L1210 410L1120 660H770L690 470L740 170Z" fill="#E9EFEB"/>
+  <path d="M740 170L930 170L1210 410L1120 660H770L690 470L740 170Z" fill="url(#g2)" fill-opacity=".6"/>
+  <text x="835" y="280" fill="#303848" style="font: 700 34px Helvetica, Arial, sans-serif">MANHATTAN</text>
+  <text x="1000" y="420" fill="#303848" style="font: 700 32px Helvetica, Arial, sans-serif">QUEENS</text>
+  <text x="760" y="610" fill="#303848" style="font: 700 34px Helvetica, Arial, sans-serif">BROOKLYN</text>
+  <defs>
+    <linearGradient id="g" x1="630" y1="90" x2="1200" y2="720" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#DB8A2A"/>
+      <stop offset="1" stop-color="#5C9AA7"/>
+    </linearGradient>
+    <linearGradient id="g2" x1="700" y1="190" x2="1080" y2="700" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#E19A33"/>
+      <stop offset="1" stop-color="#6EA6B2"/>
+    </linearGradient>
+  </defs>
+</svg>
