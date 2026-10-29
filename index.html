@@ -3,15 +3,19 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Christian Theodore | Portfolio</title>
+    <title>Christian Theodore — Interactive Data Storytelling</title>
     <meta
       name="description"
-      content="Portfolio of selected work, projects, and experiments."
+      content="I turn data, reports, and research into interactive stories people actually finish reading. Interactive data journalism, scrollytelling, and visualization for reports, newsletters, and brands."
     />
+    <meta property="og:title" content="Christian Theodore — Interactive Data Storytelling" />
+    <meta property="og:description" content="I turn data and reports into interactive stories people actually finish reading." />
+    <meta property="og:image" content="./assets/thumb-junk-mail.png" />
+    <meta name="twitter:card" content="summary_large_image" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=IBM+Plex+Sans:wght@300;400;500;600&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./styles.css" />
@@ -22,74 +26,118 @@
         <img
           class="avatar"
           src="./assets/christian-avatar.png"
-          alt="Profile photo"
+          alt="Christian Theodore"
         />
 
-        <h1>Christian Theodore</h1>
+        <p class="eyebrow">Interactive data storytelling</p>
 
-        <p>
-          I build thoughtful digital work at the intersection of design,
-          storytelling, and code.
+        <h1>I turn data into stories people actually finish.</h1>
+
+        <p class="lede">
+          Reports, research, and raw numbers rebuilt as interactive,
+          scroll-driven stories — the kind readers share instead of skim.
         </p>
-        <p>
-          This space highlights selected projects from data visualization,
-          product design, and front-end engineering.
-        </p>
+
+        <span class="availability"><span class="dot"></span>Available for projects</span>
+
+        <div class="cta-group">
+          <a class="btn btn-primary" href="mailto:christiantheodore21@gmail.com?subject=Project%20inquiry%20—%20interactive%20data%20story">Start a project</a>
+          <a class="btn btn-ghost" href="#services">What I make</a>
+        </div>
 
         <nav class="socials" aria-label="Social links">
           <a href="https://www.linkedin.com/in/christian-theodore/" target="_blank" rel="noreferrer">LinkedIn</a>
           <span>/</span>
           <a href="https://github.com/christhchild28/" target="_blank" rel="noreferrer">GitHub</a>
+          <span>/</span>
+          <a href="mailto:christiantheodore21@gmail.com">Email</a>
         </nav>
 
-        <p class="copyright">2026 CHRISTIAN THEODORE</p>
+        <p class="copyright">© 2026 Christian Theodore</p>
       </aside>
 
       <main class="content">
-        <header class="section-head">
-          <p>Selected Work</p>
-        </header>
+        <!-- FEATURED -->
+        <header class="section-head"><p>Featured</p></header>
 
-        <section class="work-list" aria-label="Selected work list">
-          <article class="work-card">
-            <a href="https://christhchild28.github.io/index-fund-tracker/" target="_blank" rel="noreferrer">
-              <img src="./assets/thumb-index-fund.png" alt="Project preview for Index Fund Tracker" />
-            </a>
-            <h2>Index Fund Tracker</h2>
-            <p class="meta">SELECTED WORK · FINANCE, WEB APP</p>
-          </article>
+        <article class="feature-card">
+          <a class="feature-media" href="https://christhchild28.github.io/junk-mail-article/" target="_blank" rel="noreferrer">
+            <img src="./assets/thumb-junk-mail.png" alt="The Mailbox Economy — interactive scroll-driven essay on U.S. junk mail" />
+            <span class="launch">View the live piece ↗</span>
+          </a>
+          <div class="feature-body">
+            <h2>The Mailbox Economy</h2>
+            <p class="desc">
+              A scroll-driven essay on U.S. junk mail: what it would be worth as its own
+              economy, who sends it, and what it costs. Physics-based mail piles, an interactive
+              sender treemap, and a closing shred-it mini-game.
+            </p>
+            <p class="meta">SCROLLYTELLING · MATTER.JS · DATA VIZ · ANALYTICS</p>
+          </div>
+        </article>
 
+        <!-- MORE WORK -->
+        <header class="section-head"><p>Selected Work</p></header>
+
+        <section class="work-grid" aria-label="Selected work">
           <article class="work-card">
             <a href="https://christhchild28.github.io/lix_cs_surplus/" target="_blank" rel="noreferrer">
-              <img src="./assets/thumb-lix-cs-surplus.png" alt="Project preview for LIX CS Surplus" />
+              <img src="./assets/thumb-lix-cs-surplus.png" alt="The Super Bowl's $655M Blind Spot" />
             </a>
-            <h2>LIX CS Surplus</h2>
-            <p class="meta">SELECTED WORK · RESEARCH, DATA</p>
-          </article>
-
-          <article class="work-card">
-            <a href="https://christhchild28.github.io/movie-waves/" target="_blank" rel="noreferrer">
-              <img src="./assets/thumb-movie-waves.png" alt="Project preview for Movie Waves" />
-            </a>
-            <h2>Movie Waves</h2>
-            <p class="meta">SELECTED WORK · CREATIVE CODE, VISUALIZATION</p>
-          </article>
-
-          <article class="work-card">
-            <a href="https://christhchild28.github.io/macro-topology/" target="_blank" rel="noreferrer">
-              <img src="./assets/thumb-macro-topology.png" alt="Project preview for Macro Topology" />
-            </a>
-            <h2>Macro Topology</h2>
-            <p class="meta">SELECTED WORK · DATA, INTERACTIVE</p>
+            <h3>The Super Bowl's $655M Blind Spot</h3>
+            <p class="meta">DATA JOURNALISM · ECONOMICS</p>
           </article>
 
           <article class="work-card">
             <a href="https://christhchild28.github.io/visualizing_population_collapse/" target="_blank" rel="noreferrer">
-              <img src="./assets/thumb-problem-from-hell.png" alt="Project preview for A Problem from Hell" />
+              <img src="./assets/thumb-problem-from-hell.png" alt="Visualizing A Problem from Hell" />
             </a>
-            <h2>A Problem from Hell</h2>
-            <p class="meta">SELECTED WORK · DATA VISUALIZATION, D3.JS</p>
+            <h3>A Problem from Hell</h3>
+            <p class="meta">DATA VISUALIZATION · D3.JS</p>
           </article>
+
+          <article class="work-card">
+            <a href="https://christhchild28.github.io/macro-topology/" target="_blank" rel="noreferrer">
+              <img src="./assets/thumb-macro-topology.png" alt="The Cusp — catastrophe theory visualization" />
+            </a>
+            <h3>The Cusp</h3>
+            <p class="meta">THREE.JS · INTERACTIVE</p>
+          </article>
+
+          <article class="work-card">
+            <a href="https://christhchild28.github.io/index-fund-tracker/" target="_blank" rel="noreferrer">
+              <img src="./assets/thumb-index-fund.png" alt="Index Fund Tracker web app" />
+            </a>
+            <h3>Index Fund Tracker</h3>
+            <p class="meta">FINANCE · WEB APP</p>
+          </article>
+        </section>
+
+        <!-- SERVICES -->
+        <header class="section-head" id="services"><p>What I Make</p></header>
+
+        <section class="services" aria-label="Services and pricing">
+          <div class="service">
+            <p class="tier">Chart Pack</p>
+            <p class="price">from $750</p>
+            <p class="service-desc">3–5 polished interactive charts for a report or blog post. ~1 week.</p>
+          </div>
+          <div class="service featured-tier">
+            <p class="tier">Scroll Story</p>
+            <p class="price">from $3,000</p>
+            <p class="service-desc">One full scroll-driven piece built from your data or report. 2–3 weeks.</p>
+          </div>
+          <div class="service">
+            <p class="tier">Report-to-Web</p>
+            <p class="price">from $6,000</p>
+            <p class="service-desc">A whitepaper, annual report, or research turned into an interactive microsite. 3–4 weeks.</p>
+          </div>
+        </section>
+
+        <section class="contact-cta">
+          <h2>Sitting on a report you wish more people read?</h2>
+          <p>Send me the data and the deadline — I'll tell you what it could become, free.</p>
+          <a class="btn btn-primary" href="mailto:christiantheodore21@gmail.com?subject=Project%20inquiry%20—%20interactive%20data%20story">Start a project</a>
         </section>
       </main>
     </div>
